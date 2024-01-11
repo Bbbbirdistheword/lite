@@ -17,6 +17,7 @@ function setup() {
       // properly decoded qr code
       console.log('Found QR code!', result)
       p.html(result.text)
+      window.open(result.text);
     }
   })
   })
